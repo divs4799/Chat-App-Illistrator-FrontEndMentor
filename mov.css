@@ -1,0 +1,16 @@
+body{
+    /* background-color: red; */
+}
+body::before{
+    height: 600px;
+    width: 250px;
+}
+#phone{
+    position: relative;
+    top: 70px;
+    left: 85px;
+}
+.main{
+    left: 257px;
+    top:-100px;
+}

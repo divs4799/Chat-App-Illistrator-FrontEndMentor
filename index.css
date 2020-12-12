@@ -1,0 +1,217 @@
+body{
+    max-width: 1440px;
+    height: 800px;
+    margin: 0px;
+    font-size: 16px;
+    background-color: hsl(270, 20%, 96%);
+}
+body::before{
+    content: "";
+    background-image: linear-gradient(to bottom, #e942ff, #d43eff, #bd3bff, #a439ff, #8838ff);
+    position: absolute;
+    height: 710px;
+    width: 400px;
+    border-radius: 0px 0px 300px 204px;
+
+}
+.container{
+
+}
+#left{
+    
+    display: inline-block;
+    width:400px;
+    height: 650px;
+    background-image: linear-gradient(to bottom, hsl(293, 100%, 63%),hsl(264, 100%, 61%));
+    border-radius:0px 0px 150px 150px;
+}       
+#phone{
+    border: 12px solid white;
+    background-color: hsl(270, 20%, 96%);
+    display: inline-block;
+    width: 255px;
+    height: 530px;
+    position: relative;
+    top: 114px;
+    left: 350px;
+    border-radius: 20px;
+}
+#notch{
+    border-radius: 20px;
+    display: block;
+    margin: 0px auto;
+    height: 20px;
+    border-radius: 5px 5px 20px 20px;
+    width:150px;
+    margin-bottom: 4px;
+    background-color: white;
+    text-align: center;
+
+}#up{
+    /* border: 2px solid red; */
+    height:12%;
+    background-image: linear-gradient(to left, hsl(293, 100%, 63%),hsl(264, 100%, 61%));
+    border-radius: 20px;
+}
+#arrow{
+    float: left;
+    position: relative;
+    left:15px;
+    font-size: 25px;
+    color: white;
+}
+#avatar{
+    float: left;
+    width: 28px;
+    position: relative;
+    bottom: 2px;
+    left: 23px;
+    border-radius: 50px;
+    border: 2px solid white;
+}
+#leftcl{
+    display: inline-block;
+    font-family: 'Rubik',sans-serif;
+    color: white;
+    font-size: 13px;
+    font-weight: 500;
+    margin-left: 28px;
+    /* border: 2px solid black; */
+}
+#sub{
+    
+    font-size: 9px;
+    color:hsl(276, 100%, 81%);
+}
+#dot{
+    float:right;
+    position: relative;
+    left: 83px;
+    bottom: 15px;
+    font-size: 20px;
+}
+.left{
+    margin:10px;
+    display: block;
+    /* border: 2px solid red; */
+    border-radius: 10px;
+    width: 58%;
+    font-family: 'Rubik', sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+    padding: 10px;
+    color: hsl(276, 55%, 52%);
+    background-color: hsl(206deg 6% 79% / 50%);
+    clear: both;
+}
+.grad{
+    background-image: linear-gradient(to right, hsl(293, 100%, 63%),hsl(264, 100%, 61%));
+    color:white ;
+    width: 60%;
+}
+.radio{
+    background-color:hsl(293, 100%, 63%) ;
+}
+.right{
+    clear: both;
+    margin: 5px 10px;
+    float: right;
+    border-radius: 10px;
+    width: 50%;
+    font-family: 'Rubik', sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+    padding: 10px;
+    background-color: white;
+    color: hsl(271, 15%, 43%);
+}
+.right2{
+    float: right;
+    font-size: 15px;
+    font-weight: 700;
+}
+.rightimg{
+    float: right;
+    margin: 0px 10px;
+}
+.upload{
+    width: 48px;
+    border-radius: 10px;
+    
+}
+.bottom{
+    /* border: 1px solid black; */
+    width: 90%;
+    height: 30px;
+    background-color: white;
+    border-radius: 10px;
+}
+input[type='radio'] {
+    -webkit-appearance: none;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    outline: none;
+    box-shadow: 0 0 0 2px hsl(289, 100%, 72%);
+}
+
+input[type='radio']:before {
+    content: '';
+    display: block;
+    width: 60%;
+    height: 60%;
+    margin: 20% auto;
+    border-radius: 50%;
+}
+input[type='radio']:checked:before {
+    background:  none;
+}
+form{
+    margin: 10px;
+}
+input[type=text]{
+    border: none;
+    color: hsl(206, 6%, 79%);
+    padding: 5px;
+    margin: 3px;
+}
+.btn{
+    background-color: hsl(271, 36%, 24%);
+    border-radius: 20px;
+    color: white;
+    height:25px;
+    float:right;
+}
+input[type=submit] {
+    background-color: hsl(271, 36%, 24%);
+    color: white;
+    position: relative;
+    border: none;
+    height: 25px;
+    border-radius: 12px;
+    cursor: pointer;
+    float: right;
+    width: 25px;
+    right: 10px;
+    top: 2px;
+}
+.main{
+    width: 368px;
+    float: right;
+    position: relative;
+    /* border: 2px solid slateblue; */
+    margin: 281px 314px;
+    font-family: 'Rubik',sans-serif;
+    font-size: 13px;
+    line-height: 2;
+}
+h1{
+    margin: 0px;
+    font-family: 'Rubik',sans-serif;
+    color: hsl(271, 36%, 24%);
+    font-weight: 500;
+    font-size: 35px;
+}
+p{
+    color: hsl(270, 7%, 64%);
+}
